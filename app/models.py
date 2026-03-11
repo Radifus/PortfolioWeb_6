@@ -23,7 +23,6 @@ class Service(models.Model):
 class Contact(models.Model):
     name = models.CharField()
     email = models.EmailField()
-    subject = models.CharField()
     text = models.TextField()
 
     def __str__(self):
